@@ -113,7 +113,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\%40sun\%40project\ModbusTest\ModbusTest\RS485.cpp" />
+    <ClCompile Include="RS485.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ModbusTest.cpp" />
   </ItemGroup>
@@ -124,10 +124,10 @@
     <QtUic Include="ModbusTest.ui" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="..\..\..\..\%40sun\%40project\ModbusTest\ModbusTest\ModbusTest.qrc" />
+    <QtRcc Include="ModbusTest.qrc" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\%40sun\%40project\ModbusTest\ModbusTest\RS485.h">
+    <QtMoc Include="RS485.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtSerialBus;$(QTDIR)\include\QtSerialPort;$(QTDIR)\include\QtWidgets</IncludePath>
       <Define Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QT_QML_DEBUG;UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_SERIALBUS_LIB;QT_SERIALPORT_LIB;QT_WIDGETS_LIB</Define>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtSerialBus;$(QTDIR)\include\QtSerialPort;$(QTDIR)\include\QtWidgets</IncludePath>

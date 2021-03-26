@@ -1,4 +1,14 @@
-﻿RCC : warning : No resources in '..\..\..\..\@sun\@project\ModbusTest\ModbusTest\ModbusTest.qrc'.
+﻿RCC : warning : No resources in 'ModbusTest.qrc'.
   
+  Uic'ing ModbusTest.ui...
+  Rcc'ing ModbusTest.qrc...
+  Moc'ing ModbusTest.h...
+  Moc'ing RS485.h...
+   RCC: Warning: No resources in 'D:\@sun\@GitCode\@test\RS485Demo\ModbusTest\ModbusTest\ModbusTest.qrc'.
   RS485.cpp
-  ModbusTest.vcxproj -> D:\@sun\@project\ModbusTest\Win32\Release\ModbusTest.exe
+  main.cpp
+  ModbusTest.cpp
+  qrc_ModbusTest.cpp
+  moc_ModbusTest.cpp
+  moc_RS485.cpp
+  ModbusTest.vcxproj -> D:\@sun\@GitCode\@test\RS485Demo\ModbusTest\Win32\Release\ModbusTest.exe
